@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harry Potter - My Favorite Movie</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1c1c2e;
+      color: white;
+    }
+
+    header {
+      background-color: #000;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    header h1 {
+      color: #ffcc00;
+      font-size: 3em;
+      margin-bottom: 5px;
+    }
+
+  .banner {
+  background: url('https://wallpapers.com/images/hd/harry-potter-all-characters-4jywiayho04iqiy8.jpg') no-repeat center center;
+  background-size: contain; /* or 'cover' if you prefer full width */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  aspect-ratio: 3/1; /* optional: maintains a 3:1 ratio */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 3px 3px 10px black;
+}
+
+
+    .banner h2 {
+      font-size: 2.5em;
+      background: rgba(0,0,0,0.5);
+      padding: 15px 30px;
+      border-radius: 10px;
+      color: #fff;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #ffcc00;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    .section p {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    .characters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .character-card {
+      background-color: #2e2e45;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .character-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .character-card h3 {
+      margin: 10px 0 5px;
+      color: #ffcc00;
+    }
+
+    .character-card p {
+      font-size: 0.95em;
+    }
+
+    .more-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ffcc00;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      background: #111;
+      padding: 20px;
+      margin-top: 40px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+    <h1>Harry Potter</h1>
+    <p>My Favorite Movie of All Time</p>
+  </header>
+
+  <div class="banner">
+
+    <h2>Welcome to the Wizarding World</h2>
+  </div>
+
+  <div class="section">
+    <h2>About the Movie</h2>
+    <p>
+      The Harry Potter series is based on the novels by J.K. Rowling. It follows the journey of a young wizard, Harry Potter, and his friends as they attend Hogwarts School of Witchcraft and Wizardry. Over the years, they fight dark forces, uncover secrets, and confront Lord Voldemort, the darkest wizard of all time. The story blends magic, friendship, courage, and a fight between good and evil.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Main Characters</h2>
+    <div class="characters">
+      <div class="character-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg" alt="Harry Potter">
+        <h3>Harry Potter</h3>
+        <p>The Boy Who Lived. Famous for surviving Voldemort's curse and the chosen one destined to defeat him.</p>
+      </div>
+
+      <div class="character-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Hermione_Granger_poster.jpg" alt="Hermione Granger">
+        <h3>Hermione Granger</h3>
+        <p>The smartest witch of her age. Loyal, brilliant, and brave. Harry’s best friend and problem solver.</p>
+      </div>
+
+      <div class="character-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg" alt="Ron Weasley">
+        <h3>Ron Weasley</h3>
+        <p>Harry’s best friend from the Weasley family. Funny, courageous, and always there in times of need.</p>
+      </div>
+
+      <div class="character-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Dumbledore_and_Elder_Wand.JPG/220px-Dumbledore_and_Elder_Wand.JPG" alt="Albus Dumbledore">
+        <h3>Albus Dumbledore</h3>
+        <p>Headmaster of Hogwarts. Wise, powerful, and a mentor to Harry in the battle against Voldemort.</p>
+      </div>
+
+      <div class="character-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Severus_Snape_poster.jpg" alt="Severus Snape">
+        <h3>Severus Snape</h3>
+        <p>A complex character with a tragic past. Played a vital role in protecting Harry, secretly heroic.</p>
+      </div>
+
+      <div class="character-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a3/Lordvoldemort.jpg" alt="Lord Voldemort">
+        <h3>Lord Voldemort</h3>
+        <p>The Dark Lord. Feared by the wizarding world, he seeks immortality and control over all magic.</p>
+      </div>
+    </div>
+    <a class="more-link" href="https://www.wizardingworld.com/" target="_blank">Explore More About Harry Potter</a>
+  </div>
+<div class="section">
+    <h2>More About the Movie</h2>
+    <p>
+      The Harry Potter film series consists of **8 epic movies** released between 2001 and 2011. It was one of the most successful film franchises in cinematic history, starring Daniel Radcliffe (Harry), Emma Watson (Hermione), and Rupert Grint (Ron).
+    </p>
+    <p>
+      The story explores powerful themes such as **friendship**, **courage**, **sacrifice**, and **the battle between good and evil**. Each house at Hogwarts represents unique values:
+    </p>
+    <ul style="margin-left: 20px; padding-left: 15px; font-size: 1.1em;">
+      <li><strong>Gryffindor</strong> – Bravery and courage</li>
+      <li><strong>Hufflepuff</strong> – Loyalty and fairness</li>
+      <li><strong>Ravenclaw</strong> – Wisdom and intelligence</li>
+      <li><strong>Slytherin</strong> – Ambition and cunning</li>
+    </ul>
+    <p style="margin-top: 20px;">
+      The final movie, <em>Harry Potter and the Deathly Hallows – Part 2</em>, delivered a powerful conclusion with the **Battle of Hogwarts** and the ultimate defeat of Voldemort.
+    </p>
+    <p>
+      Today, the magical legacy of Harry Potter continues through **theme parks**, **books**, **games**, and the spin-off series *Fantastic Beasts*.
+    </p>
+  </div>
+
+  <footer>
+    Made with ✨ by a true Harry Potter fan | © 2025
+  </footer>
+
+</body>
+</html>
